@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 // import Nav from "./component/Nav/nav.js";
 // import Shows from "./component/shows/shows.js";
 import Home from "./component/Home/home";
@@ -28,14 +28,16 @@ function App() {
       {/* <div className="App">
         <h1> HII </h1>
       </div> */}
-      <BrowserRouter>
-      <Nav />
+      {/* <BrowserRouter> */}
+      <HashRouter>
+        <Nav />
         <Routes>
           <Route path="/" element={<Home ApiData={ApiData} />} />
           <Route path="/details" element={<ShowsDetail />} />
           <Route path="/ShowData" element={<ShowData />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
+      {/* </BrowserRouter> */}
 
 
     </>
