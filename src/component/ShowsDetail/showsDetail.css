@@ -1,0 +1,69 @@
+.ShowDetailClass {
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    margin: .2rem;
+    background-color: black;
+    color: gray;
+}
+
+.DetailClass2 {
+    margin: 1rem;
+}
+
+.DetailClass2 div {
+    margin: 1px;
+    border-bottom: 1px solid rgba(133, 132, 132, 0.543);
+    padding: .3rem;
+    margin: .3rem;
+
+}
+
+.DetailClass2 div span {
+    color: white;
+    /* margin-right: 50px; */
+    /* margin: 5px; */
+    /* padding: 2rem; */
+
+}
+
+.ShowLink {
+    box-shadow: 1px 1px 5px white;
+    padding: .3rem;
+}
+
+.detailed-image {
+    height: 30rem;
+}
+
+.FormContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: gray;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FormContainer label {
+    display: table-cell;
+    width: 1px;
+    white-space: nowrap;
+}
+
+.FormContainer span {
+    display: table-cell;
+    padding: 0 4px 0 6px;
+}
+
+@media screen and (min-width: 320px ) and (max-width:768px)  {
+    
+}
